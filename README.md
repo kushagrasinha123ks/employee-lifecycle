@@ -1,6 +1,6 @@
 # Employee lifecycle through SAP SuccessFactors
 
-A static, conceptual learning page explaining the employee lifecycle in everyday HR terms and mapping each stage to SAP SuccessFactors products.
+A static explainer of the employee lifecycle in everyday HR terms, with each stage mapped to SAP SuccessFactors products.
 
 ## View locally
 
@@ -14,4 +14,4 @@ GitHub Pages deploys from the `main` branch at the repository root. The site use
 
 ## Scope
 
-This is a theoretical overview, not a description of an SAP implementation. The page links to SAP product and help documentation for its module mapping. Organization-specific configuration, integrations, licensing, and country requirements can differ.
+This is a theoretical overview, not a description of an SAP implementation. The module mapping draws on public SAP product and help documentation. Organization-specific configuration, integrations, licensing, and country requirements can differ.
