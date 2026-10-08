@@ -6,9 +6,11 @@ A static, conceptual learning page explaining the employee lifecycle in everyday
 
 Open `index.html` in a browser. There is no build step, framework, or package installation.
 
-## Publish with GitHub Pages
+## Live site
 
-In the repository's **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, then save. The site uses relative paths and works from the repository's Pages URL.
+[View the employee lifecycle guide](https://kushagrasinha123ks.github.io/employee-lifecycle/).
+
+GitHub Pages deploys from the `main` branch at the repository root. The site uses relative paths, so no build step is needed.
 
 ## Scope
 
