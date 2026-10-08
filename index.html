@@ -12,7 +12,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Employee Lifecycle home"><span class="brand-mark">e<span>·</span>l</span><span>Employee lifecycle<br><small>A SuccessFactors field guide</small></span></a>
-    <nav aria-label="Main navigation"><a href="#human">The human journey</a><a href="#sap">SAP map</a><a href="#example">Example</a><a href="#sources">Sources</a></nav>
+    <nav aria-label="Main navigation"><a href="#human">The human journey</a><a href="#sap">SAP map</a><a href="#example">Example</a></nav>
     <a class="header-cta" href="#sap">Explore the map <span aria-hidden="true">↗</span></a>
   </header>
 
@@ -59,15 +59,6 @@
         <div class="flow-turn" aria-hidden="true">↓</div>
         <div class="flow-row"><span class="flow-tag">TRANSITION</span><div class="flow-chain"><div class="flow-box core-box"><small>Record the change</small><strong>Employee Central</strong><span>Transfer, promotion, or termination</span></div><b class="flow-arrow">→</b><div class="flow-box talent-box"><small>If leaving</small><strong>Offboarding</strong><span>Handover, assets, exit tasks</span></div><b class="flow-arrow muted">↺</b><div class="flow-box subtle-box"><small>Across the journey</small><strong>People analytics</strong><span>Trends & workforce decisions</span></div></div></div>
       </div>
-      <details class="mermaid-details"><summary>View this flow as Mermaid source <span aria-hidden="true">↗</span></summary><p>Paste this into a Mermaid editor if you want to adapt the diagram.</p><pre><code>flowchart LR
-  ECplan["Employee Central: position planning"] --&gt; R["Recruiting: attract and select"]
-  R --&gt; O["Onboarding: prepare the new hire"]
-  O --&gt; EChire["Employee Central: hire and maintain record"]
-  EChire --&gt; TP["Time Off / Time Tracking / EC Payroll"]
-  EChire --&gt; T["Performance &amp; Goals / Learning / Compensation / Career &amp; Talent Development"]
-  EChire --&gt; ECexit["Employee Central: transfer or terminate"]
-  ECexit --&gt; OFF["Onboarding: offboarding process"]
-  A["People analytics"] -. insight across stages .-&gt; EChire</code></pre></details>
       <p class="map-caption">Arrows describe business handoffs, not a prescribed technical integration. Talent, time, payroll, and analytics recur throughout employment.</p>
     </div></section>
 
@@ -89,7 +80,6 @@
 
     <section class="section-wrap section-space perspective"><div class="section-heading"><div><p class="eyebrow">05 / A USEFUL DISTINCTION</p><h2>Journey order ≠<br>implementation order.</h2></div><p>One of the reference images shows an implementation sequence. That is a project-planning question, while this page follows an employee’s experience.</p></div><div class="distinction-grid"><div><span>EMPLOYEE JOURNEY</span><h3>What happens to a person?</h3><p>Plan → recruit → onboard → employ → develop → transition or exit.</p></div><div><span>IMPLEMENTATION SEQUENCE</span><h3>What might a project set up first?</h3><p>SAP recommends starting with Employee Central when integrating it with Recruiting and Onboarding, so foundational people and organizational data is in place.</p></div></div><p class="fine-print">The supplied reference images were used as topic cues. Their fixed percentages and linear module order are not presented as general SAP rules.</p></section>
 
-    <section class="sources-section" id="sources"><div class="section-wrap section-space"><div class="section-heading"><div><p class="eyebrow">06 / KEEP LEARNING</p><h2>Sources & next steps.</h2></div><p>This page is a theoretical learning aid, based on public SAP material. Product scope and exact process flows depend on the organization’s configuration.</p></div><div class="source-grid"><a href="https://help.sap.com/docs/successfactors-employee-central/implementing-employee-central-core/recruit-to-hire-business-process" target="_blank" rel="noopener noreferrer"><span>SAP HELP PORTAL</span><strong>Recruit-to-Hire business process</strong><em>↗</em></a><a href="https://help.sap.com/docs/successfactors-employee-central/implementing-employee-central-core/recommended-implementation-sequence-with-other-modules" target="_blank" rel="noopener noreferrer"><span>SAP HELP PORTAL</span><strong>Recommended implementation sequence</strong><em>↗</em></a><a href="https://help.sap.com/docs/successfactors-onboarding/implementing-onboarding/onboarding-process-overview" target="_blank" rel="noopener noreferrer"><span>SAP HELP PORTAL</span><strong>Onboarding process overview</strong><em>↗</em></a><a href="https://help.sap.com/docs/successfactors-onboarding/implementing-onboarding/offboarding" target="_blank" rel="noopener noreferrer"><span>SAP HELP PORTAL</span><strong>Offboarding overview</strong><em>↗</em></a><a href="https://www.sap.com/products/hcm/employee-central-hris/features.html" target="_blank" rel="noopener noreferrer"><span>SAP PRODUCT PAGE</span><strong>Employee Central features</strong><em>↗</em></a><a href="https://www.sap.com/products/hcm/performance-goals/features.html" target="_blank" rel="noopener noreferrer"><span>SAP PRODUCT PAGE</span><strong>Performance & Goals features</strong><em>↗</em></a></div></div></section>
   </main>
   <footer><div class="section-wrap footer-inner"><div><strong>Employee lifecycle</strong><p>A conceptual SuccessFactors field guide.</p></div><a href="#top">Back to top ↑</a></div></footer>
 </body>
